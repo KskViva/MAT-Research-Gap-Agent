@@ -1,0 +1,29 @@
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local editor configuration
+.vscode/
+.idea/
+
+# Python caches and generated packaging files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Local AI planning, process, and generated summary documents
+task_plan.md
+notes.md
+docs/
